@@ -1,3 +1,5 @@
+import Carrito from "./CartWidget";
+
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,6 +21,9 @@ function Nav() {
                     <li className="nav-item">
                         <a className="nav-link" href="#">Contacto</a>
                     </li>
+                    <li className="nav-item">
+                        <Carrito/>
+                    </li> 
                 </ul>
             </div>
         </nav>

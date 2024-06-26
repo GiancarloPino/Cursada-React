@@ -4,7 +4,7 @@ function Productos(props) {
         <div className="col-md-4">
             <div className="card mb-4">
                 <img
-                    src={props.imagen} className="card-img-top" alt={props.nombre} width="150"
+                    id="imagen-card"  src={props.imagen} className="card-img-top" alt={props.nombre} width="150"
                 />
                 <div className="card-body">
                     <h5 className="card-title">{props.nombre}</h5>
