@@ -9,6 +9,11 @@ header{
   padding: 15px;
 }
 
+#imagen-card{
+  width: 351px;
+  height: 351px;
+}
+
 #carrito{
   width: 25px;
   height: 25px;
