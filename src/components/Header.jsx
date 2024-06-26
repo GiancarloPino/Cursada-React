@@ -1,8 +1,8 @@
-function Header() {
+function Header(props) {
   return (
     <header className="jumbotron text-center">
-        <h1 className="display-4">¡Bienvenidos a OmniStore!</h1>
-        <p className="lead">Tu tienda de confianza para todo tipo de productos</p>
+        <h1 className="display-4">{props.titulo}</h1>
+        <p className="lead">{props.subTitulo}</p>
     </header>
   )
 }

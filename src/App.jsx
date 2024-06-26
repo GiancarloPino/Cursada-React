@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Header />
+      <Header titulo="¡Bienvenidos a OmniStore!" subTitulo="Tu tienda de confianza para todo tipo de productos"/>
       <SecProductos/>
       <Footer />
     </>
